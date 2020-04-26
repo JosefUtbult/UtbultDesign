@@ -1,0 +1,132 @@
+:root {
+  --utbult-green: #33cc33;
+  --utbult-orange: #ffc101;
+  --utbult-yellow: #fefe34;
+  --utbult-gray: #3d3d3d;
+  --utbult-darkgray: #1f1f1f;
+}
+
+body {
+	overflow-x : hidden;
+}
+
+h1 {
+    font-family: 'Ledger', serif;
+}
+
+h2 {
+    font-family: 'Gilda Display', serif;
+}
+
+h3 {
+    font-family: 'Nixie One', cursive;
+}
+
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.utbult-gray {
+	background-color: var(--utbult-gray);
+	color: white;
+}
+
+.header {
+	background-color: var(--utbult-gray);
+	color: white;
+}
+
+.body-container {
+	min-height: 100vh;
+}
+
+.btn-clear:focus,.btn-clear:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+#banner {
+	position: -webkit-sticky;
+  	position: sticky;
+	top: 0;
+	z-index: 1;
+
+	background-color: white;
+	box-shadow: 0 -10px 10px var(--utbult-darkgray);
+
+	-webkit-transition: box-shadow 0.2s ease;
+	-moz-transition: box-shadow 0.2s ease;
+	-o-transition: box-shadow 0.2s ease;
+	transition: box-shadow 0.2s ease;
+}
+
+#banner:hover {
+	box-shadow: 0 -15px 15px var(--utbult-darkgray);
+}
+
+.banner-locked {
+	filter: alpha(opacity=80);
+  	opacity: 0.8;
+	
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+}
+
+.banner-locked:hover {
+	filter: alpha(opacity=1);
+	opacity: 1;
+}
+
+.banner-enclosure {
+	min-height: 60px;
+}
+
+.banner-instance-enclosure {
+	min-height: 60px;
+}
+
+.banner-instance {
+	font-size: 25px;
+	-webkit-transition: font-size 0.2s ease;
+	-moz-transition: font-size 0.2s ease;
+	-o-transition: font-size 0.2s ease;
+	transition: font-size 0.2s ease;
+}
+
+.banner-instance:hover {
+	font-size: 27px;
+}
+
+.main-menu {
+	stroke: white;
+}
+
+.title {
+	color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.title > div {
+	width: auto;
+	display: block;
+}
+
+.title > p {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: -25px;
+}
+
+.home-menu {
+	background-size: 100%;
+}
+
+.home-menu h4 {
+	font-size: 30px;
+	background-color: inherit;
+}

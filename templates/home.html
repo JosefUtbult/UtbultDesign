@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="textbox p-5 m-0 text-center">
+	<h1>Välkommen</h1>
+	<h2>Vad vill du se idag?</h2>
+</div>
+
+<div class="row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-6">
+		<div class="row">
+		<div class="col-6 p-2">
+			<div class="rounded" style="background-color: var(--utbult-green);">
+				<div class="home-menu p-5" style="background-image: url('static/images/circut.png');">
+					<div class="d-flex justify-content-center">
+						<h4 class="text-white">Elektronik</h4>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-6 p-2">
+			<div class="rounded home-menu p-5" style="background-color: var(--utbult-orange);"></div>
+		</div>
+	</div>
+	<div class="row body-container">
+		<div class="col-6 p-2">
+			<div class="rounded home-menu p-5" style="background-color: var(--utbult-yellow);"></div>
+		</div>
+		<div class="col-6 p-2">
+			<div class="rounded home-menu p-5" style="background-color: var(--utbult-gray);"></div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
